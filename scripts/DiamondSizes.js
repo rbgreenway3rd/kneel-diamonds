@@ -21,7 +21,7 @@ export const DiamondSizes = () => {
         </li>`
     })
 
-    html += listItems.join("")
+    html += listItems.join(" ")
     html += "</ul>"
 
     return html
