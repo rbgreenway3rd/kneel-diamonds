@@ -1,4 +1,4 @@
-import { getSizes } from "./database.js"
+import { getSizes, setSize } from "./database.js"
 
 const metals = getSizes()
 
@@ -6,7 +6,7 @@ document.addEventListener(
     "change",
     (event) => {
         if (event.target.name === "size") {
-            window.alert(``)
+            setSize(parseInt(event.target.value))
         }
     }
 )
@@ -21,7 +21,7 @@ export const DiamondSizes = () => {
         </li>`
     })
 
-    html += listItems.join(" ")
+    html += listItems.join("")
     html += "</ul>"
 
     return html
