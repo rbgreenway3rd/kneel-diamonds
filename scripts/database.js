@@ -39,6 +39,7 @@ const database = {
         metalId: 0,
         sizeId: 0,
         styleId: 0,
+        timestamp: 0
     },
 
 }
