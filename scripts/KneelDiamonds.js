@@ -10,7 +10,7 @@ document.addEventListener(
 )
 
 export const KneelDiamonds = () => {
-    return `
+    return /*html*/`
         <h1>Kneel Diamonds</h1>
 
         <article class="choices">
