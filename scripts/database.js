@@ -48,7 +48,7 @@ export const getSizes = () => {
 export const getStyles = () => {
     return [...database.styles]
 }
-export const getCustomOrders = () => {
+export const getCustomOrder = () => {
     return [...database.customOrders]
 }
 

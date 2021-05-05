@@ -7,10 +7,9 @@ const renderAllHTML = () => {
 }
 
 document.addEventListener("stateChanged", event => {
-    if (event.target.name === "orderButton") {
-        console.log("State of data has changed. Regenerating HTML...")
-        renderAllHTML()
-    }
+    console.log("State of data has changed. Regenerating HTML...")
+    renderAllHTML()
+    
 });
 
 
